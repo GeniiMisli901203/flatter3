@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../main.dart';
 import 'ButtonWidgetScreem.dart';
 import 'ContainerWidgetScreen.dart';
 import 'InteractiveWidgetScreen.dart';
@@ -31,7 +30,7 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Flutter Widget Demo'),
+        title: const Text('Flutter Third Practice'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
       body: _screens[_currentIndex],
