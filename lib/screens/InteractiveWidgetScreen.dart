@@ -79,6 +79,7 @@ class _InteractiveWidgetScreenState extends State<InteractiveWidgetScreen> {
           ),
           const SizedBox(height: 20),
 
+
           // Интерактивный контейнер
           const Text('Интерактивный контейнер:'),
           const SizedBox(height: 10),
